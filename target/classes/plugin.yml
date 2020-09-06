@@ -1,0 +1,6 @@
+name: SlabBlocks
+version: 0.0.1
+main: org.acornmc.slabblocks.SlabBlocks
+api-version: 1.13
+authors: [DrBot]
+description: make blocks from slabs
