@@ -196,6 +196,11 @@ public final class SlabBlocks extends JavaPlugin {
         NamespacedKey blackstoneKey = new NamespacedKey(this, "BLACKSTONE");
         ShapelessRecipe blackstoneRecipe = new ShapelessRecipe(blackstoneKey, blackstoneItem);
         blackstoneRecipe.addIngredient(2, Material.BLACKSTONE_SLAB);
+        // Nether Wart
+        ItemStack netherWartItem = new ItemStack(Material.NETHER_WART, 9);
+        NamespacedKey netherWartKey = new NamespacedKey(this, "NETHER_WART");
+        ShapelessRecipe netherWartRecipe = new ShapelessRecipe(netherWartKey, netherWartItem);
+        netherWartRecipe.addIngredient(1, Material.NETHER_WART_BLOCK);
 
         ItemStack polishedBlackstoneItem = new ItemStack(Material.POLISHED_BLACKSTONE);
         NamespacedKey polishedBlackstoneKey = new NamespacedKey(this, "POLISHED_BLACKSTONE");
@@ -247,6 +252,7 @@ public final class SlabBlocks extends JavaPlugin {
         Bukkit.addRecipe(blackstoneRecipe);
         Bukkit.addRecipe(polishedBlackstoneRecipe);
         Bukkit.addRecipe(polishedBlackstoneBrickRecipe);
+        Bukkit.addRecipe(netherWartRecipe);
     }
 
     @Override
