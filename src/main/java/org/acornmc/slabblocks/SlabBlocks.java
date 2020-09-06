@@ -223,7 +223,7 @@ public final class SlabBlocks extends JavaPlugin {
         Bukkit.addRecipe(cobblestoneRecipe);
         Bukkit.addRecipe(bricksRecipe);
         Bukkit.addRecipe(stoneBricksRecipe);
-        Bukkit.addRecipe(netherBrickRecipe);
+        Bukkit.addRecipe(netherBricksRecipe);
         Bukkit.addRecipe(quartzRecipe);
         Bukkit.addRecipe(redSandstoneRecipe);
         Bukkit.addRecipe(cutRedSandstoneRecipe);
