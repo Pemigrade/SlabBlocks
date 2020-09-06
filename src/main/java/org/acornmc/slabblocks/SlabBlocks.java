@@ -86,11 +86,11 @@ public final class SlabBlocks extends JavaPlugin {
         NamespacedKey stoneBricksKey = new NamespacedKey(this, "STONE_BRICKS");
         ShapelessRecipe stoneBricksRecipe = new ShapelessRecipe(stoneBricksKey, stoneBricksItem);
         stoneBricksRecipe.addIngredient(2, Material.STONE_BRICK_SLAB);
-        // Nether Brick
-        ItemStack netherBrickItem = new ItemStack(Material.NETHER_BRICK);
-        NamespacedKey netherBrickKey = new NamespacedKey(this, "NETHER_BRICK");
-        ShapelessRecipe netherBrickRecipe = new ShapelessRecipe(netherBrickKey, netherBrickItem);
-        netherBrickRecipe.addIngredient(2, Material.NETHER_BRICK_SLAB);
+        // Nether Bricks
+        ItemStack netherBricksItem = new ItemStack(Material.NETHER_BRICKS);
+        NamespacedKey netherBricksKey = new NamespacedKey(this, "NETHER_BRICKS");
+        ShapelessRecipe netherBricksRecipe = new ShapelessRecipe(netherBricksKey, netherBricksItem);
+        netherBricksRecipe.addIngredient(2, Material.NETHER_BRICK_SLAB);
         // Quartz
         ItemStack quartzItem = new ItemStack(Material.QUARTZ_BLOCK);
         NamespacedKey quartzKey = new NamespacedKey(this, "QUARTZ_BLOCK");
