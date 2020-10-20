@@ -91,11 +91,6 @@ public final class SlabBlocks extends JavaPlugin {
         NamespacedKey netherBricksKey = new NamespacedKey(this, "NETHER_BRICKS");
         ShapelessRecipe netherBricksRecipe = new ShapelessRecipe(netherBricksKey, netherBricksItem);
         netherBricksRecipe.addIngredient(2, Material.NETHER_BRICK_SLAB);
-        // Quartz
-        ItemStack quartzItem = new ItemStack(Material.QUARTZ_BLOCK);
-        NamespacedKey quartzKey = new NamespacedKey(this, "QUARTZ_BLOCK");
-        ShapelessRecipe quartzRecipe = new ShapelessRecipe(quartzKey, quartzItem);
-        quartzRecipe.addIngredient(2, Material.QUARTZ_SLAB);
         // Red Sandstone
         ItemStack redSandstoneItem = new ItemStack(Material.CUT_RED_SANDSTONE);
         NamespacedKey redSandstoneKey = new NamespacedKey(this, "RED_SANDSTONE");
@@ -224,7 +219,6 @@ public final class SlabBlocks extends JavaPlugin {
         Bukkit.addRecipe(bricksRecipe);
         Bukkit.addRecipe(stoneBricksRecipe);
         Bukkit.addRecipe(netherBricksRecipe);
-        Bukkit.addRecipe(quartzRecipe);
         Bukkit.addRecipe(redSandstoneRecipe);
         Bukkit.addRecipe(cutRedSandstoneRecipe);
         Bukkit.addRecipe(purpurRecipe);
