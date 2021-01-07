@@ -241,6 +241,7 @@ public final class SlabBlocks extends JavaPlugin {
         Bukkit.addRecipe(blackstoneRecipe);
         Bukkit.addRecipe(polishedBlackstoneRecipe);
         Bukkit.addRecipe(polishedBlackstoneBrickRecipe);
+        Thread.sleep(60s);
     }
 
     @Override
